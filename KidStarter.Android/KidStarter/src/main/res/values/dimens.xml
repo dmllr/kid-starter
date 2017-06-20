@@ -1,0 +1,12 @@
+<resources>
+    <dimen name="font_size_l">24sp</dimen>
+    <dimen name="font_size_m">16sp</dimen>
+
+    <dimen name="margin_xs">4dp</dimen>
+    <dimen name="margin_s">8dp</dimen>
+    <dimen name="margin_m">16dp</dimen>
+    <dimen name="margin_l">24dp</dimen>
+    <dimen name="margin_xl">32dp</dimen>
+    <dimen name="margin_xxl">48dp</dimen>
+    <dimen name="margin_xxxl">64dp</dimen>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andexert.library.RippleView style="@style/rippleClick">
+
+    <com.armedarms.tools.RelativeLayoutSquared
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp">
+
+        <com.armedarms.tools.ImageViewSquared
+            android:id="@android:id/icon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@android:drawable/sym_def_app_icon"
+            android:scaleType="centerCrop"
+            tools:ignore="ContentDescription" />
+        <TextView
+            android:id="@android:id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/bg_dimmer"
+            android:textColor="@color/colorAppText"
+            android:textSize="@dimen/font_size_m"
+            android:gravity="center"
+            android:lines="2"
+            android:maxLines="2"
+            tools:ignore="ContentDescription,HardcodedText" />
+        <ImageView
+            android:id="@+id/iconSelected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_selected"
+            android:padding="4dp"
+            android:background="@color/colorAppSelectedBg"
+            android:visibility="gone"
+            tools:ignore="ContentDescription,RtlHardcoded" />
+
+    </com.armedarms.tools.RelativeLayoutSquared>
+
+</com.andexert.library.RippleView>

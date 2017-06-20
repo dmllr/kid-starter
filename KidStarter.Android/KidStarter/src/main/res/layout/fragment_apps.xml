@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:id="@android:id/empty"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_xxxl"
+            android:src="@drawable/empty"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@android:id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="@dimen/margin_xxl"
+            android:textSize="@dimen/font_size_l"
+            android:text="@string/apps_not_selected"
+            android:shadowRadius="3"
+            android:shadowColor="#000"
+            android:shadowDx="0"
+            android:shadowDy="0"  />
+
+        <com.andexert.library.RippleView
+            style="@style/rippleWrap"
+            android:layout_alignBaseline="@android:id/text1">
+
+            <TextView
+                android:id="@+id/switchToSettings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_l"
+                android:gravity="center"
+                android:textSize="@dimen/font_size_m"
+                android:text="@string/settings"
+                android:shadowRadius="3"
+                android:shadowColor="#000"
+                android:shadowDx="0"
+                android:shadowDy="0" />
+
+        </com.andexert.library.RippleView>
+
+    </RelativeLayout>
+</RelativeLayout>

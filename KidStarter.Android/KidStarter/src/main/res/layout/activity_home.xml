@@ -1,0 +1,33 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/pageParental"
+            android:background="@color/abc_search_url_text_normal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <FrameLayout
+            android:id="@+id/pageContacts"
+            android:background="@color/material_deep_teal_500"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <FrameLayout
+            android:id="@+id/pageApps"
+            android:background="@color/material_deep_teal_200"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

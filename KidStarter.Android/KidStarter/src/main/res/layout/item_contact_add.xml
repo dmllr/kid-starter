@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andexert.library.RippleView
+    style="@style/rippleClick"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <com.armedarms.tools.ImageViewSquared
+        android:id="@android:id/icon"
+        android:src="@drawable/ic_content_add"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="center"
+        tools:ignore="ContentDescription" />
+
+</com.andexert.library.RippleView>

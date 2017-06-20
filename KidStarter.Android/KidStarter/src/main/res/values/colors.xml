@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorContactText">#fff</color>
+    <color name="colorAppText">#fff</color>
+    <color name="colorAppSelectedBg">#5af158</color>
+
+    <color name="colorActionText">#fff</color>
+
+    <color name="negative">#ff6e40</color>
+    <color name="positive">#03a9f4</color>
+    <color name="neutral">#607D8B</color>
+</resources>

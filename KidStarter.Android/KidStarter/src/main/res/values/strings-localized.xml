@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">KidStarter</string>
+
+    <string name="mama">MOM</string>
+    <string name="papa">DAD</string>
+
+    <string name="name">Name</string>
+    <string name="phone">Phone number</string>
+
+    <string name="switch_to_parental">Switch to parental mode</string>
+    <string name="switch_to_kid">Return to kid mode</string>
+    <string name="edit_apps">Enable or disable applications</string>
+    <string name="edit_contacts">Edit contacts</string>
+    <string name="clear_defaults">Clear default launcher setting</string>
+    <string name="toast_already_different_launcher">Different launcher is already set as default. It\'s possible now to clear app defaults.</string>
+    <string name="or">― or ―</string>
+    <string name="remove">REMOVE</string>
+    <string name="cancel">CANCEL</string>
+
+    <string name="solve">Solve the expression</string>
+
+    <string name="apps_not_selected">Apps not selected</string>
+    <string name="settings">Settings</string>
+</resources>

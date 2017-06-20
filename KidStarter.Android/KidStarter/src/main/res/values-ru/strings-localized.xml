@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">KidStarter</string>
+
+    <string name="mama">МАМА</string>
+    <string name="papa">ПАПА</string>
+
+    <string name="name">Имя</string>
+    <string name="phone">Номер телефона</string>
+
+    <string name="switch_to_parental">Переключиться в родительский режим</string>
+    <string name="switch_to_kid">Вернуться в детский режим</string>
+    <string name="edit_apps">Разрешить и запретить приложения</string>
+    <string name="edit_contacts">Настроить контакты</string>
+    <string name="clear_defaults">Сбросить настройки лаунчера по умолчанию</string>
+    <string name="toast_already_different_launcher">Другой лаунчер уже установлен как основной. Можно сбросить его настройки по умолчанию.</string>
+    <string name="or">― или ―</string>
+    <string name="remove">УДАЛИТЬ</string>
+    <string name="cancel">ОТМЕНА</string>
+
+    <string name="solve">Решите пример</string>
+
+    <string name="apps_not_selected">Приложения не выбраны</string>
+    <string name="settings">Настройки</string>
+</resources>
